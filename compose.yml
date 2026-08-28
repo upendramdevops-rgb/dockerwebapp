@@ -2,7 +2,7 @@ version: "3.9"
 
 services:
   devopsdb:
-    image: upendra9010/automate:db
+    image: upendra9010/java:dbimage
     ports:
       - "3306:3306"
     deploy:
@@ -11,7 +11,7 @@ services:
       - mynetwork
 
   application:
-    image: upendra9010/automate:app
+    image: upendra9010/java:appimage
     ports:
       - "1111:8080"
     deploy:
