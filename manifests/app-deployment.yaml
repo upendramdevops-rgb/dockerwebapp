@@ -18,8 +18,7 @@ spec:
           image: upendra9010/k8sfirst:appimage
           ports:
             - containerPort: 8080
-      imagePullSecrets:
-        - name: flm
+     
 
 
 
