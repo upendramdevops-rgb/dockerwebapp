@@ -24,8 +24,7 @@ spec:
           ports:
             - containerPort: 3306
 
-      imagePullSecrets:
-        - name: flm
+      
 
 ---
 apiVersion: v1
